@@ -1,0 +1,4 @@
+1.Phân tích tổng quan Layout
+2.Cài đặt react-router-dom: npm i react-router-dom
+3.Đưa cấu hình routes ra ngoài
+4.Xây dựng cơ chế tải Layout 
