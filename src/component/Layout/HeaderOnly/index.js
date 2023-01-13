@@ -1,4 +1,4 @@
-import Header from './Header';
+import Header from '../CommonComponents/Header';
 
 function HeaderOnly({ children }) {
   // console.log(children);
