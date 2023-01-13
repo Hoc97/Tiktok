@@ -1,5 +1,5 @@
-import Header from '../CommonComponents/Header';
-import SideBar from './SideBar';
+import Header from '../Components/Header';
+import SideBar from '../Components/SideBar';
 
 function DefaultLayout({ children }) {
   console.log(children);
