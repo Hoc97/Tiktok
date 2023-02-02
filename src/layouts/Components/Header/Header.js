@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import config from '~/config';
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -111,9 +112,9 @@ function Header() {
     return (
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
-                <div className={cx('logo')}>
+                <Link to={config.routes.home} className={cx('logo')}>
                     <img src={images.logo} alt="Tiktok" />
-                </div>
+                </Link>
 
                 {/* Search */}
                 <Search />
@@ -122,7 +123,7 @@ function Header() {
                 <div className={cx('action')}>
                     {currentUser ? (
                         <>
-                            <Link to={'/Upload'}>
+                            <Link to={config.routes.upload}>
                                 <Button upload leftIcon={<FontAwesomeIcon icon={faPlus} />}>
                                     <span>Upload</span>
                                 </Button>
