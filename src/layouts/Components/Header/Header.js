@@ -77,7 +77,7 @@ const userMenu = [
     {
         icon: <FontAwesomeIcon icon={faCoins} />,
         title: 'Get Coins',
-        to: '/coin',
+        href: '/coin',
     },
     {
         icon: <FontAwesomeIcon icon={faVideoCamera} />,
@@ -154,7 +154,7 @@ function Header() {
                             <Image
                                 className={cx('user-avatar')}
                                 alt="Cao Thai Hoc"
-                                src="https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/defd3bdc089ba16e554de81098a19d4d~c5_720x720.jpeg?x-expires=1675184400&x-signature=9kyH61igszknIOk%2Fagh2n2sbYYg%3D"
+                                src="https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/defd3bdc089ba16e554de81098a19d4d~c5_720x720.jpeg?x-expires=1675566000&x-signature=5fOoRtXYkZtcMkSNhZua8VEtGhQ%3D"
                                 fallback="https://p16-sign-va.tiktokcdn.com/tos-useast2a-avt-0068-giso/b4c943d022d093e39a7d76902a928d00~c5_100x100.jpeg?x-expires=1675234800&x-signature=XRv44ZGHOiuVpvXU2fvyyJyQpRs%3D"
                             />
                         ) : (
